@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/card.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Credit Card</h1>
+    <div class="container">
+    <div class="row">
+        <div class="image">
+            <img src="img/chip.png" alt="chip" class="im1">
+            <img src="img/v2.png" alt="visa" class="im2">
+        </div>
+        <div class="card"> 
+            <label class="label" >Card-Holder:</label>
+    <br>
+<input type="text" class="form-control"
+ placeholder="Enter Holder Name" id="user">
+ <p id="demo"></p>
+    </div>
+<br>
+        <div class="card">
+            <div class="gap">
+            <label  class="label"  >Expriery Date:</label>
+            <label   class="label1" >CVV:</label>
+        <br>
+    <input type="month" class="input"
+     placeholder="mm / yyyy" id="expair">
+    <input type="number" class="input1"
+         placeholder="0000" id="cvv">
+         <p id="demo1"></p>
+</div>
+</div>
+   <div class="card">
+            <label  class="label"  >Card-Number:</label>
+            <br>
+            <input type="number" class="form-control"
+            placeholder="0000 0000 0000 0000" id="num">
+            </div>
+            <p id="demo2"></p>
+        <div class="btn">
+ <button  type="submit" onclick="myfun()"
+        name="Click" id="submit" class="btn1">Submit</button>
+        <button  type="submit" onclick="reset()"
+        name="Click" id="sub" class="btn2">Clear</button>
+        </div>
+    </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
